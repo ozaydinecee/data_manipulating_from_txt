@@ -1,12 +1,6 @@
 def read_file(file_name):
     """ Reads in a file.
 
-    [IMPLEMENT ME]
-        1. Open and read the given file into a variable using the File read()
-           function
-        2. Print the contents of the file
-        3. Return the contents of the file
-
     Args:
         file_name: the name of the file to be read
 
@@ -22,11 +16,6 @@ def read_file(file_name):
 
 def read_file_into_list(file_name):
     """ Reads in a file and stores each line as an element in a list
-
-    [IMPLEMENT ME]
-        1. Open the given file
-        2. Read the file line by line and append each line to a list
-        3. Return the list
 
     Args:
         file_name: the name of the file to be read
@@ -48,11 +37,6 @@ def read_file_into_list(file_name):
 def write_first_line_to_file(file_contents, output_filename):
     """ Writes the first line of a string to a file.
 
-    [IMPLEMENT ME]
-        1. Get the first line of file_contents
-        2. Use the File write() function to write the first line into a file
-           with the name from output_filename
-
         We determine the first line to be everything in a string before the
         first newline ('\n') character.
 
@@ -72,11 +56,6 @@ def write_first_line_to_file(file_contents, output_filename):
 
 def read_even_numbered_lines(file_name):
     """ Reads in the even numbered lines of a file
-
-    [IMPLEMENT ME]
-        1. Open and read the given file into a variable
-        2. Read the file line-by-line and add the even-numbered lines to a list
-        3. Return the list
 
     Args:
         file_name: the name of the file to be read
@@ -108,11 +87,7 @@ def read_even_numbered_lines(file_name):
 def read_file_in_reverse(file_name):
     """ Reads a file and returns a list of the lines in reverse order
 
-    [IMPLEMENT ME]
-        1. Open and read the given file into a variable
-        2. Read the file line-by-line and store the lines in a list in reverse order
-        3. Print the list
-        4. Return the list
+    
 
     Args:
         file_name: the name of the file to be read
